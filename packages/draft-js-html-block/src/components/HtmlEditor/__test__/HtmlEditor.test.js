@@ -1,7 +1,7 @@
 import React from 'react'
 import { Entity, convertFromRaw } from 'draft-js'
 import { mount } from 'enzyme'
-import HtmlEditor from '../HtmlEditor'
+import HtmlEditor from '../index'
 import sinon from 'sinon'
 import { expect } from 'chai'
 

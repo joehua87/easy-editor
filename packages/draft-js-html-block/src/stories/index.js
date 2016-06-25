@@ -1,1 +1,1 @@
-export TableEditor from './TableEditor'
+export HtmlEditor from './HtmlEditor'

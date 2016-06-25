@@ -2,7 +2,7 @@
   "scripts": {
     "bootstrap": "cross-env lerna bootstrap",
     "build": "cross-env lerna run build",
-    "publish": "cross-env npm run build && lerna publish",
+    "publish": "npm run lint && cross-env npm run build && lerna publish",
     "lint": "cross-env eslint packages/*/src",
     "test": "cross-env npm run lint && lerna run test"
   },
@@ -19,6 +19,6 @@
     "eslint-plugin-jsx-a11y": "^1.4.2",
     "eslint-plugin-mocha": "^3.0.0",
     "eslint-plugin-react": "^5.1.1",
-    "lerna": "^2.0.0-beta.20"
+    "lerna": "^2.0.0-beta.23"
   }
 }
