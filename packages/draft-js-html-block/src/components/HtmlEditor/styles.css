@@ -1,0 +1,26 @@
+.root {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  background-color: #000000;
+  color: white;
+  opacity: 0.2;
+}
+
+.editorWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.editorToolbar {
+  display: flex;
+  flex-flow: row nowrap;
+}

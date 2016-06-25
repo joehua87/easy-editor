@@ -1,0 +1,27 @@
+{
+  "entityMap": {
+    "0": {
+      "type": "html",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "html": "<div>Hello World</div>"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "key": "5cree",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ]
+    }
+  ]
+}
